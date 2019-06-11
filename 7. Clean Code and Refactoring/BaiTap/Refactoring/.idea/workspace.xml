@@ -103,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TennisGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="374">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
                 <element signature="method#score#0;class#TennisGame#0" />
                 <element signature="method#equalsScore#0;class#TennisGame#0" />
@@ -228,6 +228,7 @@
       <workItem from="1559919070153" duration="337000" />
       <workItem from="1559919520126" duration="181000" />
       <workItem from="1559957618046" duration="449000" />
+      <workItem from="1560161527604" duration="586000" />
     </task>
     <servers />
   </component>
@@ -264,11 +265,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9211000" />
+    <option name="totallyTimeSpent" value="9797000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1172466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -310,8 +310,8 @@
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/builders/AnnotatedBuilder.class" />
     <entry file="file://$PROJECT_DIR$/src/TennisGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        <state relative-caret-position="374">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
             <element signature="method#score#0;class#TennisGame#0" />
             <element signature="method#equalsScore#0;class#TennisGame#0" />

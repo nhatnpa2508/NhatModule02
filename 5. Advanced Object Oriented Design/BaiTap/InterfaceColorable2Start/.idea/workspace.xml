@@ -124,11 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/geometric/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -145,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../2. Array and Method in Java/BaiTap/src/CheckTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="119">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -175,11 +172,11 @@
         <option value="$PROJECT_DIR$/src/geometric/CircleComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/geometric/ComparableCircleTest.java" />
         <option value="$PROJECT_DIR$/src/geometric/ComparableCircle.java" />
-        <option value="$PROJECT_DIR$/src/geometric/Test.java" />
         <option value="$PROJECT_DIR$/src/colorable/Colorable.java" />
         <option value="$PROJECT_DIR$/src/geometric/Square.java" />
         <option value="$PROJECT_DIR$/src/geometric/TestColorable.java" />
         <option value="$PROJECT_DIR$/../../../2. Array and Method in Java/BaiTap/src/CheckTriangle.java" />
+        <option value="$PROJECT_DIR$/src/geometric/Test.java" />
       </list>
     </option>
   </component>
@@ -190,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="738" />
@@ -201,6 +198,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,8 +228,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,16 +293,18 @@
       <updated>1559724249106</updated>
       <workItem from="1559724252094" duration="2402000" />
       <workItem from="1559734433020" duration="737000" />
+      <workItem from="1560394378399" duration="672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3139000" />
+    <option name="totallyTimeSpent" value="3811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -412,11 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geometric/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -429,8 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../2. Array and Method in Java/BaiTap/src/CheckTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="119">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>

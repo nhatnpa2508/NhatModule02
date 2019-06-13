@@ -1,10 +1,5 @@
 package geometric;
 
-import geometric.Circle;
-import geometric.Rectangle;
-import geometric.Shape;
-import geometric.Square;
-
 public class Test {
     public static void main(String[] args) {
         Shape shape = new Shape();

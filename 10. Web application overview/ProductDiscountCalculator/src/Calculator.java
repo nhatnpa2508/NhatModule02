@@ -12,7 +12,7 @@ public class Calculator extends HttpServlet {
         String product = request.getParameter("product");
         float price =Float.parseFloat(request.getParameter("price"));
         float percent =Float.parseFloat(request.getParameter("percent"));
-        float result = price*(1 - (percent/100));
+        float result = price*percent/100;
         PrintWriter writer = response.getWriter();
 
         writer.println("<html>");

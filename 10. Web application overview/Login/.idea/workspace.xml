@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ServerTime:war exploded" />
+      <artifact name="Login:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb48455-7e84-408e-a453-2d9fa696de87" name="Default Changelist" comment="" />
+    <list default="true" id="7119e69c-fc78-4d46-bbf0-ef2690b9a9d3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +21,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ServerTime.java">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="199">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,7 +49,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ServerTime.java" />
+        <option value="$PROJECT_DIR$/src/Login.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -62,29 +72,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ServerTime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServerTime" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ServerTime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServerTime" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServerTime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServerTime" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -93,10 +98,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,16 +116,15 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ServerTime_war_exploded/index" />
       <deployment>
-        <artifact name="ServerTime:war exploded">
+        <artifact name="Login:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/ServerTime_war_exploded" />
+            <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_21_ServerTime_2" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_21_Login" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -129,7 +132,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56108" />
+        <option name="DEBUG_PORT" value="56743" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -179,7 +182,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ServerTime:war exploded" />
+          <artifact name="Login:war exploded" />
         </option>
       </method>
     </configuration>
@@ -189,17 +192,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4cb48455-7e84-408e-a453-2d9fa696de87" name="Default Changelist" comment="" />
-      <created>1560563027648</created>
+      <changelist id="7119e69c-fc78-4d46-bbf0-ef2690b9a9d3" name="Default Changelist" comment="" />
+      <created>1560568173522</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560563027648</updated>
-      <workItem from="1560563033240" duration="1835000" />
+      <updated>1560568173522</updated>
+      <workItem from="1560568178873" duration="479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1835000" />
+    <option name="totallyTimeSpent" value="479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -210,8 +213,8 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info id="Web" sideWeight="0.50080514" side_tool="true" visible="true" weight="0.24962178" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.24962178" />
+      <window_info id="Web" sideWeight="0.50119907" side_tool="true" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" />
       <window_info anchor="bottom" id="Terminal" />
@@ -223,7 +226,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -243,13 +246,20 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ServerTime.java">
+    <entry file="file://$PROJECT_DIR$/src/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="136">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -259,11 +269,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>ServerTime:war exploded</last-edited>
+          <last-edited>Login:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2505747" />
                 <option value="0.5" />
               </list>
             </option>
@@ -272,7 +282,6 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (ServerTime)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -295,7 +304,6 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -307,12 +315,10 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ServerTime</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

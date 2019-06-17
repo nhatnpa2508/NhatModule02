@@ -14,7 +14,7 @@
 <body>
 <h1>Customers</h1>
 <p>
-    <a href="/customer/create.jsp">Create new customer</a>
+    <a href="/customers?action=create">Create new customer</a>
 </p>
 <table border="1">
     <tr>

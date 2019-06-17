@@ -6,7 +6,55 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="460dcb57-e831-4b4c-9798-99a13f36d367" name="Default Changelist" comment="" />
+    <list default="true" id="460dcb57-e831-4b4c-9798-99a13f36d367" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/.idea/artifacts/ShowCustomerList_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/ShowCustomerList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/src/CustomerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/src/CustomerListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/ShowCustomerList/web/button.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/src/CustomersList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/web/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProductDiscountCalculator/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11. JSP and JSTL/Exam JSTL/.idea/artifacts/Exam_JSTL_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/Exam JSTL/.idea/artifacts/Exam_JSTL_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11. JSP and JSTL/Exam JSTL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/Exam JSTL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11. JSP and JSTL/Exam JSTL/Exam JSTL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/Exam JSTL/Exam JSTL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11. JSP and JSTL/Exam JSTL/out/artifacts/Exam_JSTL_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/Exam JSTL/out/artifacts/Exam_JSTL_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11. JSP and JSTL/SimpleDictionary/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/SimpleDictionary/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11. JSP and JSTL/SimpleDictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11. JSP and JSTL/SimpleDictionary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/libraries/taglibs_standard_impl_1_2_51.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/libraries/taglibs_standard_impl_1_2_51.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/CustomerManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/CustomerManagement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/service/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/customer/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/customer/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/service/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/list.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="119">
+              <caret line="13" column="67" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -69,8 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,6 +133,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,6 +144,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -110,8 +161,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+    <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="12">
       <deployment>
         <artifact name="ProductDiscountCalculator:war exploded">
           <settings>
@@ -195,23 +245,25 @@
       <updated>1560571673885</updated>
       <workItem from="1560571678932" duration="1560000" />
       <workItem from="1560582543244" duration="888000" />
+      <workItem from="1560776428297" duration="880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2448000" />
+    <option name="totallyTimeSpent" value="3328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Web" order="5" sideWeight="0.50402576" side_tool="true" visible="true" weight="0.25340393" />
+      <window_info id="Web" order="5" sideWeight="0.5056361" side_tool="true" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49597424" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49436393" visible="true" weight="0.25718608" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
@@ -251,10 +303,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="119">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="67" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ProductDiscountCalculator:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3045977" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

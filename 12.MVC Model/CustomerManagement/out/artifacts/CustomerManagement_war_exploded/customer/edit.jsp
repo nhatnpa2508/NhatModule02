@@ -23,7 +23,7 @@
 </p>
 <form method="post">
     <fieldset>
-        <legend>Customer infomation</legend>
+        <legend>Customer information</legend>
         <table>
             <tr>
                 <td>Name: </td>
@@ -44,6 +44,5 @@
         </table>
     </fieldset>
 </form>
-
 </body>
 </html>

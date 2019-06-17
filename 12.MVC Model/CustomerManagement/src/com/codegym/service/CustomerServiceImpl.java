@@ -31,7 +31,7 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public Customer findByID(int id) {
+    public Customer findById(int id) {
         return customers.get(id);
     }
 

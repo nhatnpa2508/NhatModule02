@@ -9,7 +9,7 @@ public interface CustomerService {
 
     void save(Customer customer);
 
-    Customer findByID(int id);
+    Customer findById(int id);
 
     void update(int id, Customer customer);
 

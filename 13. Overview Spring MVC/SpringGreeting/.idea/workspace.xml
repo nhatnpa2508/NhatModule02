@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a76de96-102d-41a8-8d1e-b44b98edc0b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CurrencyConversion/src/controllers/CurrencyConversionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CurrencyConversion/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CurrencyConversion/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CurrencyConversion/web/WEB-INF/views/convert.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10. Web application overview/CurrencyConverter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../10. Web application overview/CurrencyConverter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10. Web application overview/CurrencyConverter/out/production/CurrencyConverter/Convert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a76de96-102d-41a8-8d1e-b44b98edc0b5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -49,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/controllers/GreetingController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="23" />
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +93,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="837" />
     <option name="height" value="745" />
@@ -269,18 +261,17 @@
       <option name="presentableId" value="Default" />
       <updated>1562750691472</updated>
       <workItem from="1562750701065" duration="1780000" />
-      <workItem from="1562769013354" duration="1957000" />
+      <workItem from="1562769013354" duration="1990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3737000" />
+    <option name="totallyTimeSpent" value="3770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="837" height="745" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26383525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15506808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -329,7 +320,7 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -346,7 +337,7 @@
     <entry file="file://$PROJECT_DIR$/src/controllers/GreetingController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="23" />
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

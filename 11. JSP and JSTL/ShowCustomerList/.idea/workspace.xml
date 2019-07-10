@@ -7,54 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26ff08d9-61de-4281-8350-229c47286c0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ShowCustomerList_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShowCustomerList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomerListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/src/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/src/CustomersList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/web/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10. Web application overview/ProductDiscountCalculator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../10. Web application overview/ProductDiscountCalculator/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10. Web application overview/ProductDiscountCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../10. Web application overview/ProductDiscountCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10. Web application overview/ProductDiscountCalculator/out/production/ProductDiscountCalculator/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10. Web application overview/Trainslate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../10. Web application overview/Trainslate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10. Web application overview/Trainslate/out/production/Trainslate/Trainslate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exam JSTL/.idea/artifacts/Exam_JSTL_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exam JSTL/.idea/artifacts/Exam_JSTL_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exam JSTL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exam JSTL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exam JSTL/Exam JSTL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exam JSTL/Exam JSTL.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exam JSTL/out/artifacts/Exam_JSTL_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Exam JSTL/out/artifacts/Exam_JSTL_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleDictionary/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleDictionary/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleDictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleDictionary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/libraries/taglibs_standard_impl_1_2_51.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/libraries/taglibs_standard_impl_1_2_51.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/iNotes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/controller/NoteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/service/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/service/NoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/service/NoteServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/web/iNote/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/web/iNote/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/web/iNote/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/web/iNote/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/web/iNote/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/.idea/libraries/mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/src/controller/NoteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/src/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/src/service/DataAccessLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/src/service/INote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/src/service/NoteImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/web/note/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/web/note/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/web/note/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/web/note/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/web/note/view.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/CustomerManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/CustomerManagement.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/controller/CustomerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/WEB-INF/classes/com/codegym/service/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/customer/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/customer/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/artifacts/CustomerManagement_war_exploded/customer/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/controller/CustomerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/out/production/CustomerManagement/com/codegym/service/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/controller/CustomerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/src/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/web/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="437">
               <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
               <folding>
                 <element signature="e#952#953#0" expanded="true" />
@@ -100,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CustomerList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="136">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="16" column="87" lean-forward="true" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+            <state relative-caret-position="165">
+              <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -124,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CustomerListServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="182">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,7 +144,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="745" />
@@ -176,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -205,6 +183,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,17 +294,18 @@
       <updated>1560775707215</updated>
       <workItem from="1560775710983" duration="5667000" />
       <workItem from="1560781506334" duration="578000" />
+      <workItem from="1561688488342" duration="879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6245000" />
+    <option name="totallyTimeSpent" value="7124000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -401,7 +381,7 @@
     <entry file="file://$PROJECT_DIR$/web/show.jsp" />
     <entry file="file://$PROJECT_DIR$/src/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
+        <state relative-caret-position="437">
           <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
           <folding>
             <element signature="e#952#953#0" expanded="true" />
@@ -430,18 +410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CustomerListServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CustomerList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="182">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -450,8 +420,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" column="87" lean-forward="true" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+        <state relative-caret-position="165">
+          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CustomerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

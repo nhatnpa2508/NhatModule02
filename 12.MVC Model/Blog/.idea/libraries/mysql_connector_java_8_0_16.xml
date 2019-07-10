@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-8.0.16">
+    <CLASSES>
+      <root url="jar://E:/libJava/mysql-connector-java-8.0.16.jar!/" />
+      <root url="jar://E:/libJava/taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="jar://E:/libJava/taglibs-standard-impl-1.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

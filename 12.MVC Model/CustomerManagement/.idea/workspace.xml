@@ -7,21 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4dd0f9c-45be-4863-ac57-a440817f0e41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ProductsManagement/src/controller/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProductsManagement/src/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProductsManagement/src/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProductsManagement/src/service/ProductServiceImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProductsManagement/web/product/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProductsManagement/web/product/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProductsManagement/web/product/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProductsManagement/web/product/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProductsManagement/web/product/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/iNotes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/controller/NoteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/service/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/service/NoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/service/NoteServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/web/iNote/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/web/iNote/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/web/iNote/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/web/iNote/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/web/iNote/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/.idea/libraries/mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/src/controller/NoteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/src/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/src/service/DataAccessLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/src/service/INote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/src/service/NoteImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/web/note/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/web/note/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/web/note/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/web/note/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleCornectDB/web/note/view.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductsManagement/.idea/artifacts/ProductsManagement_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductsManagement/.idea/artifacts/ProductsManagement_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProductsManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductsManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductsManagement/src/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductsManagement/src/CustomersList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductsManagement/web/list.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,17 +50,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codegym/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="97">
               <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/codegym/service/CustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="403">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#856#857#0" expanded="true" />
@@ -69,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/customer/create.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="-22">
+              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -78,8 +90,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codegym/controller/CustomerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="200" selection-start-line="200" selection-end-line="206" selection-end-column="9" />
+            <state relative-caret-position="123">
+              <caret line="124" column="54" selection-start-line="124" selection-start-column="49" selection-end-line="124" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codegym/service/CustomerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,17 +114,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/customer/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/customer/edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="476">
+              <caret line="41" column="63" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -108,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/customer/view.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+            <state relative-caret-position="182">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -117,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/customer/delete.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            <state relative-caret-position="216">
+              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -148,10 +172,10 @@
         <option value="$PROJECT_DIR$/web/customer/edit.jsp" />
         <option value="$PROJECT_DIR$/src/com/codegym/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/com/codegym/model/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/codegym/service/CustomerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/codegym/controller/CustomerServlet.java" />
         <option value="$PROJECT_DIR$/web/customer/create.jsp" />
         <option value="$PROJECT_DIR$/web/customer/list.jsp" />
+        <option value="$PROJECT_DIR$/src/com/codegym/service/CustomerServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -162,7 +186,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="745" />
@@ -175,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,15 +265,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProductsManagement" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ExampleCornectDB" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -359,17 +383,20 @@
       <workItem from="1560774806179" duration="7498000" />
       <workItem from="1560820247626" duration="1192000" />
       <workItem from="1560839548143" duration="7889000" />
+      <workItem from="1561107939650" duration="707000" />
+      <workItem from="1561111114576" duration="1363000" />
+      <workItem from="1561165987456" duration="8355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34160000" />
+    <option name="totallyTimeSpent" value="44585000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="745" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498366" weight="0.277865" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.28668684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -454,48 +481,79 @@
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codegym/service/CustomerService.java">
+    <entry file="file://$PROJECT_DIR$/web/customer/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codegym/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/customer/delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="242" column="6" selection-start-line="242" selection-start-column="6" selection-end-line="242" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/customer/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/customer/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="41" column="63" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codegym/controller/CustomerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="124" column="54" selection-start-line="124" selection-start-column="49" selection-end-line="124" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codegym/model/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/codegym/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/customer/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/customer/create.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/customer/view.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="182">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codegym/service/CustomerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="403">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#856#857#0" expanded="true" />
@@ -509,30 +567,6 @@
             <element signature="e#1278#1279#0" expanded="true" />
             <element signature="e#1314#1315#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/customer/delete.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codegym/controller/CustomerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="200" selection-start-line="200" selection-end-line="206" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/customer/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="4" />
         </state>
       </provider>
     </entry>

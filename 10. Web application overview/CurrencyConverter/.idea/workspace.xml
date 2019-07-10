@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af06a063-a269-4c68-a4a0-96c2d02bbdb0" name="Default Changelist" comment="" />
+    <list default="true" id="af06a063-a269-4c68-a4a0-96c2d02bbdb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion/src/controllers/CurrencyConversionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion/web/WEB-INF/views/form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CurrencyConverter/Convert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/SpringGreeting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/SpringGreeting/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/Convert.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -69,6 +77,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,15 +95,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProductDiscountCalculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -197,23 +205,25 @@
       <workItem from="1560568896706" duration="1239000" />
       <workItem from="1560572454348" duration="799000" />
       <workItem from="1560581076982" duration="1081000" />
+      <workItem from="1562753450629" duration="1182000" />
+      <workItem from="1562768167149" duration="616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3119000" />
+    <option name="totallyTimeSpent" value="4917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49597424" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49275362" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.50402576" side_tool="true" visible="true" weight="0.25718608" />
+      <window_info id="Web" order="7" sideWeight="0.5072464" side_tool="true" visible="true" weight="0.2647504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
@@ -254,7 +264,7 @@
     <entry file="file://$PROJECT_DIR$/src/Convert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>

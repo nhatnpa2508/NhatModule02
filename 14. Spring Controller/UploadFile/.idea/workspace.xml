@@ -7,6 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9404f0a-6220-46f1-93d9-f0d13b7afde7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/src/main/java/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/src/main/java/model/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1. Java programming language/operator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Java programming language/operator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1. Java programming language/operator/out/production/operator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Java programming language/operator/out/production/operator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion/.idea/workspace.xml" afterDir="false" />
@@ -21,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/UploadFile/src/main/java/form/MyUploadForm.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TimeZone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeZone/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WorldTime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WorldTime/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../7. Clean Code and Refactoring/BaiTap/Refactoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. Clean Code and Refactoring/BaiTap/Refactoring/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -42,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -173,7 +174,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="745" />
@@ -388,16 +389,15 @@
       <updated>1563239099095</updated>
       <workItem from="1563239106709" duration="210000" />
       <workItem from="1563239334960" duration="5506000" />
-      <workItem from="1563258933226" duration="6006000" />
+      <workItem from="1563258933226" duration="6598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11722000" />
+    <option name="totallyTimeSpent" value="12314000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -520,7 +520,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
         </state>
       </provider>
     </entry>

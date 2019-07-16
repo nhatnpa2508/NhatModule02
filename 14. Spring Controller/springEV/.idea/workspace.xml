@@ -2,32 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5153b93d-6be0-425b-a462-defdc07fa41a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/artifacts/PageHotel_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/PageHotel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/src/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/web/WEB-INF/views/page1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/web/WEB-INF/views/page2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/configs/spring-config-upload.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/_menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/uploadMutiFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/uploadOneFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/uploadResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/.idea/modules/springMvcFormTutorial_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/src/main/java/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/src/main/webapp/WEB-INF/views/employee/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMvcFormTutorial/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1. Java programming language/operator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Java programming language/operator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1. Java programming language/operator/out/production/operator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Java programming language/operator/out/production/operator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/artifacts/PageHotel_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/artifacts/PageHotel_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/PageHotel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/PageHotel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/src/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/src/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/web/WEB-INF/views/page1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/PageHotel/web/WEB-INF/views/page1.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/Translate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/Translate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../validateEmail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../validateEmail/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/UploadFile/src/main/java/controller/MyFileUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/UploadFile/src/main/java/form/MyUploadForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeZone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeZone/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UploadFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UploadFile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorldTime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WorldTime/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../7. Clean Code and Refactoring/BaiTap/Refactoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. Clean Code and Refactoring/BaiTap/Refactoring/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="90" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="90" />
+            <state relative-caret-position="221">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -90,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/EmailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="442">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -359,16 +363,18 @@
       <workItem from="1563172411348" duration="6922000" />
       <workItem from="1563192407999" duration="2085000" />
       <workItem from="1563260209612" duration="288000" />
+      <workItem from="1563267382550" duration="1548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15347000" />
+    <option name="totallyTimeSpent" value="16895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -412,8 +418,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controller.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="90" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="90" />
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="90" />
         </state>
       </provider>
     </entry>
@@ -440,7 +446,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/EmailController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="442">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />

@@ -19,9 +19,6 @@
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/Translate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/Translate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/UploadFile/src/main/java/controller/MyFileUploadController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/UploadFile/src/main/java/form/MyUploadForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TimeZone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeZone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UploadFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UploadFile/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UploadFile/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UploadFile/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../7. Clean Code and Refactoring/BaiTap/Refactoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. Clean Code and Refactoring/BaiTap/Refactoring/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/TimeController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="389">
-              <caret line="33" column="41" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="41" />
+              <caret line="33" column="41" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -355,16 +352,15 @@
       <updated>1563181348889</updated>
       <workItem from="1563181355452" duration="4270000" />
       <workItem from="1563192441098" duration="1209000" />
-      <workItem from="1563264820805" duration="826000" />
+      <workItem from="1563264820805" duration="1007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6305000" />
+    <option name="totallyTimeSpent" value="6486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -459,7 +455,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/TimeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
-          <caret line="33" column="41" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="41" />
+          <caret line="33" column="41" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

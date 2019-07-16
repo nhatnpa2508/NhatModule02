@@ -7,21 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9404f0a-6220-46f1-93d9-f0d13b7afde7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/14. Spring Controller.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeZone/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeZone/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeZone/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeZone/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeZone/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeZone/TimeZone.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeZone/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeZone/src/main/java/controller/TimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeZone/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeZone/src/main/webapp/WEB-INF/views/worldclock.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1. Java programming language/operator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Java programming language/operator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1. Java programming language/operator/out/production/operator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Java programming language/operator/out/production/operator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/CurrencyConversion/.idea/workspace.xml" afterDir="false" />
@@ -34,8 +19,10 @@
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/Translate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/Translate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/UploadFile/src/main/java/controller/MyFileUploadController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/UploadFile/src/main/java/form/MyUploadForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeZone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeZone/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../validateEmail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../validateEmail/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorldTime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WorldTime/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../7. Clean Code and Refactoring/BaiTap/Refactoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. Clean Code and Refactoring/BaiTap/Refactoring/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -63,17 +50,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -172,10 +159,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/uploadOneFile.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/uploadResult.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring-config-upload.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/MyFileUploadController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/_menu.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -401,12 +388,12 @@
       <updated>1563239099095</updated>
       <workItem from="1563239106709" duration="210000" />
       <workItem from="1563239334960" duration="5506000" />
-      <workItem from="1563258933226" duration="5132000" />
+      <workItem from="1563258933226" duration="6006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10848000" />
+    <option name="totallyTimeSpent" value="11722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -492,13 +479,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring-config-upload.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/_menu.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -516,24 +496,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring-config-upload.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
         </state>
       </provider>
     </entry>

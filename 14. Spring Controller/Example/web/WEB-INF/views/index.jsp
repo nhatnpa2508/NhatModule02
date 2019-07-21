@@ -8,9 +8,26 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>HomePage</title>
 </head>
 <body>
-$END$
+<ul>
+    <li><a href="#">Add</a></li>
+    <li><a href="#">Edit</a></li>
+</ul>
+<br>
+<form method="#">
+<h2>Convert</h2>
+<input type="text" name="rate" placeholder="rate">
+<input type="text" name="money" placeholder="Enter you money">
+<input type="submit" value="Convert">
+</form>
+
+<br>
+<form>
+<h2>Register</h2>
+<input type="email" name="email" placeholder="Enter your email">
+<input type="submit" value="Send">
+</form>
 </body>
 </html>

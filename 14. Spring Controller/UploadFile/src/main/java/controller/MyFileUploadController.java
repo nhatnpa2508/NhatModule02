@@ -14,10 +14,7 @@ import form.MyUploadForm;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.InitBinder;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.multipart.support.ByteArrayMultipartFileEditor;
 
@@ -115,5 +112,10 @@ public class MyFileUploadController {
 
         // Forward to "/WEB-INF/pages/uploadOneFile.jsp".
         return "uploadOneFile";
+    }
+    //GET: Trang chu
+    @GetMapping("/")
+    public String home(){
+        return "_menu";
     }
 }

@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1831f702-d60e-48a0-94c2-a50af713e00d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/Blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/Blog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/Example/src/controller/ConvertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/Example/src/controller/ConvertController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/views/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/views/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/views/addUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/views/addUpdate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/views/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/views/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/views/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/Example/web/WEB-INF/views/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/LoginApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/LoginApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/TimeZone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/TimeZone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/src/main/java/controller/MyFileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/src/main/java/controller/MyFileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/classes/controller/MyFileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/classes/controller/MyFileUploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/lib/spring-aop-4.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/lib/spring-beans-4.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/lib/spring-context-4.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/lib/spring-core-4.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/lib/spring-expression-4.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/lib/spring-web-4.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/lib/spring-webmvc-4.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/views/_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/WEB-INF/views/_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/UploadFile/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/classes/controller/MyFileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/target/classes/controller/MyFileUploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/springEV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/springEV/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/validateEmail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/validateEmail/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15.ViewsAndThymeleaf/ManagermentCustomer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15.ViewsAndThymeleaf/ManagermentCustomer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15.ViewsAndThymeleaf/ProductManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15.ViewsAndThymeleaf/ProductManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -329,6 +299,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CustomerManager" />
@@ -436,16 +407,15 @@
       <option name="presentableId" value="Default" />
       <updated>1563589320817</updated>
       <workItem from="1563589324567" duration="10014000" />
-      <workItem from="1563675160805" duration="3433000" />
+      <workItem from="1563675160805" duration="3690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13447000" />
+    <option name="totallyTimeSpent" value="13704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20272315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

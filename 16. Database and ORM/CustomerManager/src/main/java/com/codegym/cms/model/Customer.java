@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  *************************************
  * Created by IntelliJ IDEA          *
@@ -57,4 +58,65 @@ public class Customer {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+=======
+/*
+ *************************************
+ * Created by IntelliJ IDEA          *
+ * User: Nhat                     *
+ * Email: nhatnpa2508@gmail.com      *
+ * Date: 7/19/2019                     *
+ * Time: 2:43 PM                     *
+ *************************************
+ */
+
+package com.codegym.cms.model;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "customers")
+public class Customer {
+
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
+    private Long id;
+    private String firstName;
+    private String lastName;
+
+    public Customer() {}
+
+    public Customer(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Customer[id=%d, firstName='%s', lastName='%s']", id, firstName, lastName);
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+>>>>>>> 5f51a86c18aa2e8cb69ea8806d890c307b27259d
 }

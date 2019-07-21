@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  *************************************
  * Created by IntelliJ IDEA          *
@@ -28,3 +29,35 @@ public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherSe
         return new String[]{"/"};
     }
 }
+=======
+/*
+ *************************************
+ * Created by IntelliJ IDEA          *
+ * User: Nhat                     *
+ * Email: nhatnpa2508@gmail.com      *
+ * Date: 7/19/2019                     *
+ * Time: 2:39 PM                     *
+ *************************************
+ */
+
+package com.codegym.cms;
+
+import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+    @Override
+    protected Class<?>[] getRootConfigClasses() {
+        return new Class[]{ApplicationConfig.class};
+    }
+
+    @Override
+    protected Class<?>[] getServletConfigClasses() {
+        return new Class[0];
+    }
+
+    @Override
+    protected String[] getServletMappings() {
+        return new String[]{"/"};
+    }
+}
+>>>>>>> 5f51a86c18aa2e8cb69ea8806d890c307b27259d

@@ -10,7 +10,6 @@
 
 package com.codegym.cms;
 
-/*import com.codegym.cms.formatter.ProvinceFormatter;*/
 import com.codegym.cms.formatter.ProvinceFormatter;
 import com.codegym.cms.service.CustomerService;
 import com.codegym.cms.service.ProvinceService;

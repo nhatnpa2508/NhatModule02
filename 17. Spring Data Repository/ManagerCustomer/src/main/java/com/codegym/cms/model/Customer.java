@@ -17,7 +17,7 @@ import javax.persistence.*;
 public class Customer {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String firstName;
     private String lastName;
@@ -26,7 +26,8 @@ public class Customer {
     @JoinColumn(name = "province_id")
     private Province province;
 
-    public Customer() {}
+    public Customer() {
+    }
 
     public Customer(String firstName, String lastName) {
         this.firstName = firstName;

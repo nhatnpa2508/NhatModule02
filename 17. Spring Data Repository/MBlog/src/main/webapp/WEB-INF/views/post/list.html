@@ -1,0 +1,39 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 7/20/2019                     *
+* Time: 9:30 AM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Post List</title>
+</head>
+<body>
+<a href="/post-create">Create new post</a>
+<h1>Post List</h1>
+<table border="1">
+    <tr>
+        <th>Title: </th>
+        <th>Content: </th>
+        <th>Author: </th>
+        <th>Edit | Delete</th>
+        <th>View</th>
+    </tr>
+    <th:block th:each="post: ${posts}">
+        <tr>
+            <td th:text="${post.title}"></td>
+            <td th:text="${post.content}"></td>
+            <td th:text="${post.author}"></td>
+            <td><a th:href="@{/post-edit/__${post.id}__}">Edit</a><a> | </a>
+                <a th:href="@{/post-delete/__${post.id}__}">Delete</a></td>
+            <td><a th:href="@{/post-view/__${post.id}__}">View</a></td>
+        </tr>
+    </th:block>
+</table>
+</body>
+</html>

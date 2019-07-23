@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad018ec1-94ec-4008-ae72-60a19b97e5e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Nhat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/CounterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/MyCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18. Validation/ValidateRegisterForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18. Validation/ValidateRegisterForm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18. Validation/ValidatingFormInput/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18. Validation/ValidatingFormInput/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveUser/.idea/dictionaries/Nhat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveUser/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveUser/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveUser/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveUser/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveUser/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveUser/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveUser/src/main/java/com/codegym/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveUser/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveUser/src/main/webapp/WEB-INF/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -49,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/MyCounter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#426#427#0" expanded="true" />
                 <element signature="e#460#461#0" expanded="true" />
@@ -110,6 +109,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="676" />
@@ -318,16 +324,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563871620795</updated>
-      <workItem from="1563871629161" duration="871000" />
+      <workItem from="1563871629161" duration="2590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="871000" />
+    <option name="totallyTimeSpent" value="2590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="745" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -335,10 +340,10 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.51805335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.51805335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.33333334" />
-      <window_info anchor="bottom" id="Application Servers" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32843137" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -348,7 +353,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,14 +384,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/MyCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#426#427#0" expanded="true" />
             <element signature="e#460#461#0" expanded="true" />
@@ -422,9 +427,78 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Gradle : com.codegym : HitCounter-1.0-SNAPSHOT.war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

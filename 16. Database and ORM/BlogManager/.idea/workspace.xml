@@ -2,7 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1831f702-d60e-48a0-94c2-a50af713e00d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/java/com/codegym/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/java/com/codegym/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/java/com/codegym/repository/IPostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/java/com/codegym/repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/java/com/codegym/repository/PostRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/java/com/codegym/service/IPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/java/com/codegym/service/PostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/webapp/WEB-INF/views/error404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/webapp/WEB-INF/views/post/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/webapp/WEB-INF/views/post/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/webapp/WEB-INF/views/post/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/webapp/WEB-INF/views/post/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MBlog/src/main/webapp/WEB-INF/views/post/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/formatter/CategoryFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/repository/IPostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/service/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/service/IPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/java/com/codegym/service/PostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/category/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/category/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/category/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/category/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/error404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/post/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/post/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/post/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/post/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerBlog/src/main/webapp/WEB-INF/views/post/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/BlogManager-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/BlogManager-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CustomerManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/cms/repository/impl/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerManager/src/main/java/com/codegym/cms/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/build/classes/java/main/com/codegym/cms/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/build/classes/java/main/com/codegym/cms/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/build/classes/java/main/com/codegym/cms/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/build/classes/java/main/com/codegym/cms/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/build/libs/ManagerCustomer-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/build/libs/ManagerCustomer-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/src/main/java/com/codegym/cms/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/src/main/java/com/codegym/cms/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/src/main/java/com/codegym/cms/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1220">
+            <state relative-caret-position="187">
               <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,10 +133,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/PostController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="1309">
               <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="493">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -82,17 +166,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/create.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="527">
               <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="272">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -100,8 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="391">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -109,12 +211,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/PostRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="170">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#0#21#1" expanded="true" />
-                <element signature="e#0#36#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,14 +268,6 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="575" />
     <option name="width" value="798" />
@@ -189,6 +281,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,8 +386,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,17 +499,21 @@
       <option name="presentableId" value="Default" />
       <updated>1563589320817</updated>
       <workItem from="1563589324567" duration="10014000" />
-      <workItem from="1563675160805" duration="3690000" />
+      <workItem from="1563675160805" duration="4959000" />
+      <workItem from="1563760164689" duration="605000" />
+      <workItem from="1563777624071" duration="366000" />
+      <workItem from="1563800744836" duration="722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13704000" />
+    <option name="totallyTimeSpent" value="16666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20272315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -427,7 +523,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44605476" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44605476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,13 +553,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="91" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -518,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -560,40 +642,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1220">
+        <state relative-caret-position="187">
           <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -605,22 +656,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/PostRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/PostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="1309">
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#0#21#1" expanded="true" />
-            <element signature="e#0#36#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="272">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/PostRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>

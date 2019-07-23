@@ -1,0 +1,23 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 7/23/2019                     *
+* Time: 11:16 AM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>PhoneNumber</title>
+</head>
+<body>
+<h1>Congratulations! You are old enough to sign up for this site</h1>
+<h2>Your First Name <span th:text="${user.firstName}"></span></h2>
+<h2>Your Last Name <span th:text="${user.lastName}"></span></h2>
+<h2>Your Age <span th:text="${user.age}"></span></h2>
+<h2>Your Phone <span th:text="${user.phoneNumber}"></span></h2>
+<h2>Your Email <span th:text="${user.email}"></span></h2>
+</body>
+</html>

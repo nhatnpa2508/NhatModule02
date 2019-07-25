@@ -24,7 +24,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class CategoryController {
-
+    //Cơ chế tiêm của Bean (tiêm giao diện interface vào,) biến thằng interface thành thằng implement ở ApplicationConfig
     @Autowired
     private ICategoryService categoryService;
 

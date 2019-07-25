@@ -23,7 +23,8 @@ public class Post {
     private String title;
     private String content;
     private String author;
-/*    private Date date;*/
+/*@DateTimeFormat(pattern="đ/MM/yyyy hh: mm")
+private Date date;*/
 
     @ManyToOne
     @JoinColumn(name = "category_id")

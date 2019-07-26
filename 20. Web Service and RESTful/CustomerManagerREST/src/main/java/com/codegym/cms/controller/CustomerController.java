@@ -28,7 +28,7 @@ public class CustomerController {
     @Autowired
     private CustomerService customerService;
 
-    //-------------------Retrieve All Customers--------------------------------------------------------
+    //-------------------Retrieve All --------------------------------------------------------
 
     @GetMapping("/customers/")
     public ResponseEntity<List<Customer>> listAllCustomer(){
@@ -40,7 +40,7 @@ public class CustomerController {
         return new ResponseEntity<List<Customer>>(customers,HttpStatus.OK);
     }
 
-    //-------------------Retrieve Single Customer--------------------------------------------------------
+    //-------------------Retrieve Single --------------------------------------------------------
 
     @GetMapping(value = "/customers/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Customer> getCustomer(@PathVariable("id")Long id){
@@ -53,10 +53,11 @@ public class CustomerController {
         return new ResponseEntity<Customer>(customer, HttpStatus.OK);
     }
 
-    //-------------------Create a Customer--------------------------------------------------------
+    //-------------------Create --------------------------------------------------------
 
     @PostMapping("/customers/")
-    public ResponseEntity<Void> createCustomer(@RequestBody Customer customer, UriComponentsBuilder ucBuilder){
+    public ResponseEntity<Void> createCustomer(@RequestBody Customer customer,
+                                               UriComponentsBuilder ucBuilder){
         System.out.println("Creating Customer " + customer.getLastName());
         customerService.save(customer);
         HttpHeaders headers = new HttpHeaders();
@@ -64,10 +65,11 @@ public class CustomerController {
         return new ResponseEntity<Void>(headers,HttpStatus.CREATED);
     }
 
-    //------------------- Update a Customer --------------------------------------------------------
+    //------------------- Update  --------------------------------------------------------
 
     @PutMapping("/customers/{id}")
-    public ResponseEntity<Customer> updateCustomer(@PathVariable("id")Long id,@RequestBody Customer customer){
+    public ResponseEntity<Customer> updateCustomer(@PathVariable("id")Long id,
+                                                   @RequestBody Customer customer){
         System.out.println("Updating Customer " + id);
         Customer currentCustomer = customerService.findById(id);
 
@@ -83,7 +85,7 @@ public class CustomerController {
         return new ResponseEntity<Customer>(currentCustomer, HttpStatus.OK);
     }
 
-    //------------------- Delete a Customer --------------------------------------------------------
+    //------------------- Delete  --------------------------------------------------------
 
     @DeleteMapping("/customers/{id}")
     public ResponseEntity<Customer> deleteCustomer(@PathVariable("id")Long id){

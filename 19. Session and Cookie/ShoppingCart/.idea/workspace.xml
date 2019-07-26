@@ -2,50 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ab9f1c-47bf-4941-b94e-6301aa42d30c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/19. Session and Cookie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/assets/images/dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../example/src/main/java/com/codegym/entities/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../example/src/main/java/com/codegym/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../example/src/main/java/com/codegym/models/ProductModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../example/src/main/java/com/codegym/servlets/CartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../example/src/main/java/com/codegym/servlets/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../example/src/main/webapp/cart/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../example/src/main/webapp/product/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/Blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/Blog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/Example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/SandwichCondiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/SandwichCondiments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/springEV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/springEV/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/validateEmail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/validateEmail/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15.ViewsAndThymeleaf/ProductManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15.ViewsAndThymeleaf/ProductManager/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/controller/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/controller/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/repository/IPostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/repository/impl/CategoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/repository/impl/PostRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/service/IPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/ProductManagerREST/src/main/java/com/codegym/blog/service/impl/PostServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/src/main/java/com/codegym/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/src/main/java/com/codegym/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/src/main/java/com/codegym/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/src/main/java/com/codegym/model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HitCounter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HitCounter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SaveUser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SaveUser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20. Web Service and RESTful/CustomerManagerREST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20. Web Service and RESTful/CustomerManagerREST/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -88,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="136">
               <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -100,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="561">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,20 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="90" column="40" lean-forward="true" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+            <state relative-caret-position="629">
+              <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,6 +96,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CartController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
@@ -211,6 +188,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,12 +322,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../17. Spring Data Repository/MB" />
@@ -361,14 +339,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\CodeGym\Nhat\NhatModule02\19. Session and Cookie\ShoppingCart\src\main\webapp\WEB-INF\views" />
-      <recent name="E:\CodeGym\Nhat\NhatModule02\19. Session and Cookie\ShoppingCart\src\main\webapp\WEB-INF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\CodeGym\Nhat\NhatModule02\19. Session and Cookie\ShoppingCart\src\main\java\com\codegym" />
       <recent name="E:\CodeGym\Nhat\NhatModule02\19. Session and Cookie\ShoppingCart\src\main\webapp" />
       <recent name="E:\CodeGym\Nhat\NhatModule02\19. Session and Cookie\ShoppingCart\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CodeGym\Nhat\NhatModule02\19. Session and Cookie\ShoppingCart\src\main\webapp\WEB-INF\views" />
+      <recent name="E:\CodeGym\Nhat\NhatModule02\19. Session and Cookie\ShoppingCart\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -472,17 +450,18 @@
       <workItem from="1563930127308" duration="1693000" />
       <workItem from="1564038553705" duration="11342000" />
       <workItem from="1564055136690" duration="4255000" />
+      <workItem from="1564103131551" duration="401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17931000" />
+    <option name="totallyTimeSpent" value="18332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -576,20 +555,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="30" column="109" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart/index.jsp" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -618,10 +585,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+        <state relative-caret-position="136">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -630,25 +597,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="561">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/ProductController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="90" column="40" lean-forward="true" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+        <state relative-caret-position="629">
+          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -659,6 +616,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

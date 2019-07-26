@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title th:text="#{index.title}"></title>
+</head>
+<body>
+<h1 th:text="#{index.heading}"></h1>
+Language: <a href="?lang=en">English</a> | <a href="?lang=vi">Viet Nam</a>
+<form th:action="@{/result}" th:object="${customer}" method="post">
+  <table>
+    <tr>
+      <td th:text="#{index.name_label}"></td>
+      <td><input type="text" th:field="*{name}"/></td>
+    </tr>
+    <tr>
+      <td th:text="#{index.email_label}"></td>
+      <td><input type="email" th:field="*{email}"/></td>
+    </tr>
+    <tr>
+      <td th:text="#{index.address_label}"></td>
+      <td><input type="text" th:field="*{address}"/></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="submit" th:value="#{index.submit_label}"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

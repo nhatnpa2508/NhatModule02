@@ -2,20 +2,366 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beef410d-b27d-4129-9f5d-51201bbbb481" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message_vi.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/.idea/dictionaries/Nhat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/controller/AlbumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/controller/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/formatter/AlbumFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/formatter/CategoryFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/model/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/model/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/model/hash/Hashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/repository/IAlbumRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/repository/IImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/service/IAlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/service/IImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/service/impl/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/service/impl/ImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/java/com/codegym/flicker/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/css/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/css/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/fonts/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/img/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/js/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/js/jquery.nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shAutoloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushAS3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushAppleScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushBash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushCSharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushColdFusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushCpp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushDelphi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushDiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushErlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushGroovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushJScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushJava.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushJavaFX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushPerl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushPhp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushPlain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushPowerShell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushPython.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushRuby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushSass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushScala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushSql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushVb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shBrushXml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/scripts/shLegacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shCore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shCoreDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shCoreEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shCoreEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shCoreFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shCoreMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shCoreMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shCoreRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shThemeDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shThemeDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shThemeEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shThemeEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shThemeFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shThemeMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shThemeMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/bitmap-doc/syntax-highlighter/styles/shThemeRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_button.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_contact.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_elements.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_elements.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_footer.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_gallery.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_instagram.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_instagram.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_service.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_service.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_testimonials.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/_testimonials.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/breadcrumb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/breadcrumb.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/banner/banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/banner/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/banner/home-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/cat-post/cat-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/cat-post/cat-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/cat-post/cat-post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/feature-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/main-blog/m-blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/main-blog/m-blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/main-blog/m-blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/main-blog/m-blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/main-blog/m-blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/next.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/popular-post/post1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/popular-post/post2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/popular-post/post3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/popular-post/post4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/post-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/post-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/blog/prev.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/disabled-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/disabled-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/g6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/g7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/g8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/primary-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/primary-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/success-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/success-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/elements/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/find-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/gallery/gallery-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/instagram/ins-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/instagram/ins-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/instagram/ins-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/instagram/ins-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/instagram/ins-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/instagram/ins-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/img/testimonials/test-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/gmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/jquery.ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/mail-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/stellar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_instagram.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_predefine.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_testimonials.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/animate-css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/animate-css/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/bootstrap-datepicker/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/bootstrap-datepicker/bootstrap-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/flipclock/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/isotope/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/isotope/isotope-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/lightbox/simpleLightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/lightbox/simpleLightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/linericon/fonts/Linearicons-Free.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/linericon/fonts/Linearicons-Free.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/linericon/fonts/Linearicons-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/linericon/fonts/Linearicons-Free.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/linericon/fonts/Linearicons-Free.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/linericon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/nice-select/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/nice-select/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/nice-select/js/jquery.nice-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/nice-select/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/owl-carousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/owl-carousel/assets/animated.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/owl-carousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/owl-carousel/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/home/vendors/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/login/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/resources/login/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/album/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/album/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/album/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/album/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/album/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/category/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/category/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/category/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/category/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/error404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/home/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/home/albumList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/home/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/home/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/home/contact_process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/home/imageList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/home/imageOfAlbum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/home/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/home/prepros-6.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/home/single-blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/image/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/image/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/image/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/image/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/image/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/login/loginForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/login/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/createAlbum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/createImage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/prepros-6.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/showAlbum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/FlickerApp/src/main/webapp/WEB-INF/views/user/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/.idea/dictionaries/Nhat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/controller/NoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/controller/TypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/formatter/TypeFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/model/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/repository/INoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/repository/ITypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/service/INoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/service/ITypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/service/impl/NoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/java/com/codegym/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/error404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/note/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/note/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/note/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/note/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/note/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/type/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/type/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/type/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/type/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNote/src/main/webapp/WEB-INF/views/type/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/model/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0. Case Study Module2/iNotes/src/model/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/DatabaseImage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/DatabaseImage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13. Overview Spring MVC/SpringGreeting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. Overview Spring MVC/SpringGreeting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/Example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/UploadFile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14. Spring Controller/validateEmail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14. Spring Controller/validateEmail/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../15.ViewsAndThymeleaf/ManagermentCustomer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15.ViewsAndThymeleaf/ManagermentCustomer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Internalization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Internalization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16. Database and ORM/CustomerManager/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../16. Database and ORM/CustomerManager/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16. Database and ORM/CustomerManager/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../16. Database and ORM/CustomerManager/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16. Database and ORM/CustomerManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16. Database and ORM/CustomerManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/build/classes/java/main/com/codegym/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/build/classes/java/main/com/codegym/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/build/classes/java/main/com/codegym/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/build/classes/java/main/com/codegym/model/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/build/libs/MB-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/build/libs/MB-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/src/main/java/com/codegym/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/src/main/java/com/codegym/cms/repository/ProvinceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/src/main/java/com/codegym/cms/repository/ProvinceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/src/main/webapp/WEB-INF/views/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18. Validation/ValidateRegisterForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18. Validation/ValidateRegisterForm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19. Session and Cookie/ShoppingCart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19. Session and Cookie/ShoppingCart/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19. Session and Cookie/example/src/main/webapp/assets/images/dog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../22. Web Application Security in Spring/RoleBasedAuthorization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/RoleBasedAuthorization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23. Development/DeploySpringBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../23. Development/DeploySpringBoot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23. Development/soapui.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../23. Development/soapui.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23. Development/spring-blog-master/src/main/java/com/codegym/blog/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../23. Development/spring-blog-master/src/main/java/com/codegym/blog/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23. Development/spring-blog-master/src/main/java/com/codegym/blog/utils/StorageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../23. Development/spring-blog-master/src/main/java/com/codegym/blog/utils/StorageUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,124 +383,102 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Customer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="233">
-                  <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CustomerController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#2#13#0" expanded="true" />
-                    <element signature="e#2#15#0" expanded="true" />
-                    <element signature="e#2#18#0" expanded="true" />
-                    <element signature="e#2#21#0" expanded="true" />
-                    <element signature="e#2#20#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/message.properties">
-              <provider editor-type-id="ResourceBundle" />
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/message_vi.properties">
-              <provider editor-type-id="ResourceBundle" />
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-                  <folding>
-                    <element signature="e#2#14#0" expanded="true" />
-                    <element signature="e#2#16#0" expanded="true" />
-                    <element signature="e#2#17#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="828">
-                  <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/message_vi.properties">
-              <provider editor-type-id="ResourceBundle" />
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <element signature="e#2#13#0" expanded="true" />
+                <element signature="e#2#15#0" expanded="true" />
+                <element signature="e#2#18#0" expanded="true" />
+                <element signature="e#2#19#0" expanded="true" />
+                <element signature="e#2#21#0" expanded="true" />
+                <element signature="e#2#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/message.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/message_vi.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -292,8 +616,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,33 +739,25 @@
       <option name="presentableId" value="Default" />
       <updated>1564126675805</updated>
       <workItem from="1564126681695" duration="2687000" />
+      <workItem from="1564731202378" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2687000" />
+    <option name="totallyTimeSpent" value="2720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.3236715" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32850242" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
@@ -449,16 +765,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3236715" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32850242" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,6 +796,7 @@
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/message_haw.properties" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -478,8 +804,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/message_haw.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/message.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -493,61 +848,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/message_vi.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/message.properties">
       <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="131">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="e#2#13#0" expanded="true" />
             <element signature="e#2#15#0" expanded="true" />
             <element signature="e#2#18#0" expanded="true" />
+            <element signature="e#2#19#0" expanded="true" />
             <element signature="e#2#21#0" expanded="true" />
             <element signature="e#2#20#0" expanded="true" />
           </folding>

@@ -1,0 +1,48 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 7/20/2019                     *
+* Time: 9:30 AM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Note</title>
+</head>
+<body>
+<h1>Create Note</h1>
+<p><a href="/notes">Back to Note list</a></p>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/note/create}" th:object="${note}" method="post">
+    <table>
+        <tr>
+            <td>Title:</td>
+            <td><input type="text" th:field="*{title}"/></td>
+        </tr>
+        <tr>
+            <td>Content:</td>
+            <td><input type="text" th:field="*{content}"/></td>
+        </tr>
+        <tr>
+            <td>Type:</td>
+            <td>
+                <select th:field="*{type}">
+                    <option th:each="p : ${types}" th:value="${p.id}" th:text="${p.name}"></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Create Note"/></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Note{
-    private int id;
+    private long id;
     private String title;
     private String content;
     private String type;
@@ -31,7 +31,7 @@ public class Note{
         this.title = title;
     }
 
-    public Note(int id, String title, String content, String type){
+    public Note(long id, String title, String content, String type){
         this.id = id;
         this.title = title;
         this.content = content;
@@ -42,7 +42,7 @@ public class Note{
         this.title = title;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -58,7 +58,7 @@ public class Note{
         return content;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 

@@ -7,33 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1276bd20-c87f-49a7-bb7d-741916f87bc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iNotes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/NoteServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/NoteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/NoteServiceImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/iNote/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/iNote/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/iNote/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/iNote/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/iNote/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/.idea/libraries/mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/src/controller/NoteServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/src/model/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/src/service/DataAccessLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/src/service/INote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/src/service/NoteImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/web/note/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/web/note/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/web/note/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/web/note/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.MVC Model/ExampleCornectDB/web/note/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/CustomerManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.MVC Model/ProductsManagement/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/.idea/dictionaries/Nhat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/controller/NoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/controller/TypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/formatter/TypeFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/model/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/repository/INoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/repository/ITypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/service/INoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/service/ITypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/service/impl/NoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNote/src/main/java/com/codegym/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23. Development/DeploySpringBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../23. Development/DeploySpringBoot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23. Development/soapui.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../23. Development/soapui.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,15 +41,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/iNote/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/iNote/edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,17 +80,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/NoteServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3111">
+            <state relative-caret-position="539">
               <caret line="193" selection-start-line="193" selection-end-line="193" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/Note.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="165">
+              <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,9 +99,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Type.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/NoteServiceImplement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="442">
               <caret line="38" column="29" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -128,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/NoteService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="289">
               <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,7 +131,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/DatabaseConnection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -172,10 +166,11 @@
         <option value="$PROJECT_DIR$/web/iNote/edit.jsp" />
         <option value="$PROJECT_DIR$/web/iNote/list.jsp" />
         <option value="$PROJECT_DIR$/src/service/NoteService.java" />
-        <option value="$PROJECT_DIR$/src/model/Note.java" />
         <option value="$PROJECT_DIR$/src/service/DatabaseConnection.java" />
         <option value="$PROJECT_DIR$/src/controller/NoteServlet.java" />
         <option value="$PROJECT_DIR$/src/service/NoteServiceImplement.java" />
+        <option value="$PROJECT_DIR$/src/model/Note.java" />
+        <option value="$PROJECT_DIR$/src/model/Type.java" />
       </list>
     </option>
   </component>
@@ -186,29 +181,20 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_5.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="314" />
-    <option name="y" value="5" />
-    <option name="width" value="770" />
-    <option name="height" value="732" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,15 +244,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Test/CornectDatabaseWithJava" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2505747" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -371,16 +359,19 @@
       <workItem from="1561086459303" duration="4945000" />
       <workItem from="1561098584049" duration="2229000" />
       <workItem from="1561621328323" duration="14000" />
+      <workItem from="1564237524086" duration="288000" />
+      <workItem from="1564239025049" duration="617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17810000" />
+    <option name="totallyTimeSpent" value="18715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964029" visible="true" weight="0.60060513" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964029" visible="true" weight="0.3540091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -488,26 +479,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/NoteServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3111">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/NoteServiceImplement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="442">
           <caret line="38" column="29" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -517,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/NoteService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="289">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -525,10 +499,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/NoteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/DatabaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -585,7 +583,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>iNotes</last-edited>
+          <last-edited>Java-Gradle|iNotes</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

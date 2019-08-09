@@ -1,0 +1,35 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 7/20/2019                     *
+* Time: 9:31 AM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Note view</title>
+</head>
+<body>
+<a href="/notes">Back to Note list</a>
+<h1>Note view</h1>
+<table border="1">
+    <tr>
+        <th>Title:</th>
+        <th>Content:</th>
+        <th>Type: </th>
+        <th>Edit | Delete</th>
+    </tr>
+    <tr>
+        <td th:text="${note.title}"></td>
+        <td th:text="${note.content}"></td>
+        <td th:text="${note.type.name}"></td>
+        <td><a th:href="@{/note/edit/__${note.id}__ }">Edit</a><a> | </a><a th:href="@{/note/delete/__${note.id}__ }">Delete</a></td>
+
+    </tr>
+</table>
+</body>
+</html>

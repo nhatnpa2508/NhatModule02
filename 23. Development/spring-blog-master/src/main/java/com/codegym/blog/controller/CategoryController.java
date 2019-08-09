@@ -60,7 +60,7 @@ public class CategoryController {
     }
 
     @PostMapping("/{id}/edit")
-    public ModelAndView updateCategory(@ModelAttribute("category") Category category ){
+    public ModelAndView updateCategory(@PathVariable("id") Long id,@ModelAttribute("category") Category category ){
         categoryService.save(category);
         ModelAndView modelAndView = new ModelAndView("/category/edit");
         modelAndView.addObject("category", category);

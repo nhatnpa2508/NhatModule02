@@ -1,0 +1,42 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 7/20/2019                     *
+* Time: 9:31 AM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Note</title>
+</head>
+<body>
+<h1>Delete Note</h1>
+<h2>Are you sure?</h2>
+<p><a href="/notes">Back to Note list</a> </p>
+<form th:action="@{/note/delete}" th:object="${note}" method="post">
+    <input th:type="hidden" name="id" th:field="*{id}">
+    <table>
+        <tr>
+            <td>Title</td>
+            <td th:text="${note.title}"></td>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td th:text="${note.content}"></td>
+        </tr>
+        <tr>
+            <td>Type</td>
+            <td th:text="${note.type.name}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Delete Note"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

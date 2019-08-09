@@ -1,0 +1,5 @@
+2019-08-08 14:19:36,071 WARN  [DefaultSoapUICore] Missing folder [C:\Users\Nhat\ext] for external libraries
+2019-08-08 14:19:36,487 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Nhat\soapui-settings.xml]
+2019-08-08 14:19:37,686 INFO  [WorkspaceImpl] Loading workspace from [C:\Users\Nhat\intellij-soapui-workspace.xml]
+2019-08-08 14:20:02,365 INFO  [WorkspaceImpl] Saved workspace to [C:\Users\Nhat\intellij-soapui-workspace.xml]
+2019-08-08 14:20:02,374 INFO  [DefaultSoapUICore] Settings saved to [C:\Users\Nhat\soapui-settings.xml]

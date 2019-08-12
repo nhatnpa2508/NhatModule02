@@ -1,0 +1,71 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 8/9/2019                     *
+* Time: 3:14 PM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Employee</title>
+</head>
+<body>
+<h1>Create Employee</h1>
+<p><a href="/employees">Back to Employee list</a></p>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/employee-create}" th:object="${employee}" method="post">
+    <table>
+        <tr>
+            <td>Full Name:</td>
+            <td><input type="text" th:field="*{fullName}" minlength="5" maxlength="40" required/></td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td><input type="text" th:field="*{phoneNumber}" minlength="10" maxlength="10" required/></td>
+        </tr>
+        <tr>
+            <td>ID Card:</td>
+            <td><input type="text" th:field="*{idCard}" minlength="9" maxlength="9" required/></td>
+        </tr>
+        <tr>
+            <td>Date:</td>
+            <td><input type="date" th:field="*{birthday}" required/></td>
+        </tr>
+        <tr>
+            <td>Category:</td>
+            <td>
+                <select th:field="*{category}">
+                    <option th:each="p : ${categories}" th:value="${p.id}" th:text="${p.name} required"></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Sex:</td>
+            <td><select th:field="*{sex}" required>
+                <option th:value="true" th:text="Men"></option>
+                <option th:value="false" th:text="Woman"></option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" th:field="*{email}" required/></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" th:field="*{address}"minlength="4" maxlength="100" required/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Create Employee"/></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

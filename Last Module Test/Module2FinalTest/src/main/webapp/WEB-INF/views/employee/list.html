@@ -1,0 +1,55 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 8/9/2019                     *
+* Time: 3:14 PM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee List</title>
+</head>
+<body>
+<a href="/employee-create">Create new Employee</a>
+<h1>Employeee List</h1>
+<form>
+    Search by first name:
+    <input name="s" type="text" placeholder="Enter Full Name employee"/>
+    <input type="submit" value="Search"/>
+</form><br/>
+<table border="1">
+    <tr>
+        <th>ID: </th>
+        <th>Full Name: </th>
+        <th>Category: </th>
+        <th>Sex: </th>
+        <th>Phone Number: </th>
+        <th>Edit | Delete</th>
+    </tr>
+    <th:block th:each="employee: ${employees}">
+        <tr>
+            <td th:text="${employee.id}"></td>
+            <td th:text="${employee.fullName}"></td>
+            <td th:text="${employee.category.name}"></td>
+            <td><div th:switch="${employee.sex}">
+                <a th:case='true'>Men</a>
+                <a th:case='*'>Woman</a>
+            </div>
+            </td>
+            <td th:text="${employee.phoneNumber}"></td>
+            <td><a th:href="@{/employee-edit/__${employee.id}__}">Edit</a><a> | </a>
+                <a th:href="@{/employee-delete/__${employee.id}__}" onclick="return confirm('Are you sure?')">Delete</a></td>
+        </tr>
+    </th:block>
+</table>
+<!--<div>
+    <a th:href="@{'/posts'(page=${posts.number - 1})}" th:if="${posts.hasPrevious()}">Previous</a>
+    <span th:text="${posts.number + 1}"></span>/<span th:text="${posts.totalPages}"></span>
+    <a th:href="@{'/posts'(page=${posts.number + 1})}" th:if="${posts.hasNext()}">Next</a>
+</div>-->
+</body>
+</html>

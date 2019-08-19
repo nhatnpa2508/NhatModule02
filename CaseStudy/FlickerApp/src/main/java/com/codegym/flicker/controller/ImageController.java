@@ -20,12 +20,14 @@ import com.codegym.flicker.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.FileCopyUtils;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import javax.validation.Valid;
 import java.io.File;
 import java.io.IOException;
 
@@ -64,8 +66,11 @@ public class ImageController {
     }
 
     @PostMapping(value="/createImg",produces = "application/json;charset=UTF-8")
-    public ModelAndView saveImage(@ModelAttribute("uploadImage") UploadImage uploadImage, @ModelAttribute("user") User user,
-                                 HttpSession session){
+    public ModelAndView saveImage(@Valid @ModelAttribute("uploadImage") UploadImage uploadImage, @ModelAttribute("user") User user, BindingResult bindingResult
+                                 , HttpSession session){
+        if(bindingResult.hasFieldErrors()){
+            return new ModelAndView("/userManager/createImage");
+        }
         MultipartFile file = uploadImage.getMultipartFile();
         String pathFile = file.getOriginalFilename();
         String path = UPLOAD_LOCATION + file.getOriginalFilename();
@@ -105,7 +110,11 @@ public class ImageController {
     }
 
     @PostMapping(value="/editImg",produces = "application/json;charset=UTF-8")
-    public ModelAndView updatePost(@ModelAttribute("image")Image image,@ModelAttribute("user") User user, HttpSession session){
+    public ModelAndView updatePost(@Valid @ModelAttribute("image")Image image,@ModelAttribute("user") User user,
+                                   BindingResult bindingResult,HttpSession session){
+        if(bindingResult.hasFieldErrors()){
+            return new ModelAndView("/userManager/editImg");
+        }
         imageService.save(image);
         session.setAttribute("user",user);
         ModelAndView modelAndView = new ModelAndView("/userManager/editImg");

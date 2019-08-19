@@ -11,6 +11,7 @@
 package com.codegym.flicker.model;
 
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
@@ -43,7 +44,7 @@ public class Album {
     private Date dateCreated;
 
     @Temporal(TemporalType.TIMESTAMP)
-    @CreationTimestamp
+    @UpdateTimestamp
     @DateTimeFormat(pattern = "MM/dd/yyyy",iso = DateTimeFormat.ISO.DATE)
     private Date lastModifiedEdit;
 

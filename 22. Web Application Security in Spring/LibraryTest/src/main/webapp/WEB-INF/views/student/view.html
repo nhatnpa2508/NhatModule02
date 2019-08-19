@@ -1,0 +1,102 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 8/13/2019                     *
+* Time: 3:37 PM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet prefetch" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
+    <title>Thêm mới nhân viên</title>
+
+    <style>
+        tr {
+            line-height: 30px;
+        }
+        label{
+            margin-left: 20px;
+        }
+
+        #datepicker {
+            width: 180px;
+        }
+
+        #datepicker > span:hover {
+            cursor: pointer;
+        }
+        input{
+            width: 400px;
+        }
+        th{
+            width: 200px;
+        }
+    </style>
+
+</head>
+<body style="margin: 50px">
+
+<p><a href="/students" class="btn btn-info btn-lg">Trở lại trang quản lý</a></p>
+<h1>Thêm mới Học sinh</h1>
+
+<form th:action="@{/student-create}" th:object="${student}" method="post">
+    <table class="table table-striped" style="font-size: larger; width: auto">
+        <tr hidden>
+            <th>ID</th>
+            <td><a th:text="*{id}" ></a></td>
+
+        </tr>
+        <tr>
+            <th>Mã Học Sinh</th>
+            <td><a th:text="*{studentCode}"></a></td>
+        </tr>
+        <tr>
+            <th>Họ và tên</th>
+            <td><a th:text="*{fullName}"></a></td>
+        </tr>
+        <tr>
+            <th>Số điện thoại</th>
+            <td><a th:text="*{phoneNumber}"></a></td>
+        </tr>
+        <tr>
+            <th>Lớp</th>
+            <td><a th:text="*{classMate}"></a></td>
+        </tr>
+        <tr>
+            <th>Ngày mượn</th>
+            <td><a th:text="*{dateOrderBook.toLocaleString().substring(0,12)}" ></a></td>
+        </tr>
+        <tr>
+            <th>Sách</th>
+            <td><a th:text="${student.book.name}" ></a></td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><a th:text="*{email}" ></a></td>
+        </tr>
+        <tr>
+            <th>Địa chỉ</th>
+            <td><a th:text="*{address}" style="width: 200px;"></a></td>
+        </tr>
+    </table>
+</form>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#datepicker").datepicker({
+            autoclose: true,
+            todayHighlight: true
+        }).datepicker('update', new Date());
+    });
+</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+</body>
+</html>

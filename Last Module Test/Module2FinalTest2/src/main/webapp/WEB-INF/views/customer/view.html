@@ -1,0 +1,60 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 8/15/2019                     *
+* Time: 1:25 PM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Thông tin liên lạc</title>
+    <style>
+        tr {
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body style="margin: 50px">
+<p><a href="/" class="btn btn-info btn-lg">Trở lại trang quản lý liên lạc</a></p>
+<h1>Xem thông tin liên lạc</h1>
+
+<form th:action="@{/customer-create}" th:object="${customer}" method="post">
+    <table class="table table-striped" style="font-size: larger; width: 800px">
+        <tr hidden>
+            <td>ID</td>
+            <td><a th:text="*{id}"></a></td>
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <a th:href="@{/customer-view/__${customer.id}__}">
+                <a th:text="${customer.lastName}"></a>
+                <a> </a>
+                <a th:text="${customer.firstName}"></a>
+            </a>
+        </tr>
+        <tr>
+            <td>Số điện thoại</td>
+            <td><a th:text="*{phoneNumber}" th:field="*{phoneNumber}"></a></td>
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td><a th:text="*{email}" th:field="*{email}"></a></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><a th:text="*{address}" th:field="*{address}"></a></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

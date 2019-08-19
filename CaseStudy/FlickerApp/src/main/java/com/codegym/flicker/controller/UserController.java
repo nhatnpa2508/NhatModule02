@@ -19,6 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.FileCopyUtils;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
@@ -64,11 +65,13 @@ public class UserController {
     }
 
     @PostMapping(value="/register",produces = "application/json;charset=UTF-8")
-    public ModelAndView register(@Valid @ModelAttribute("user") User user) throws NoSuchAlgorithmException {
+    public ModelAndView register(@Valid @ModelAttribute("user") User user, BindingResult bindingResult) throws NoSuchAlgorithmException {
+        if(bindingResult.hasFieldErrors()){
+            return new ModelAndView("/login/register");
+        }
         User userTerm = userService.getUserByEmail(user.getEmail());
         ModelAndView modelAndView = new ModelAndView("/login/register");
         if (userTerm != null){
-
             modelAndView.addObject("user", user);
             modelAndView.addObject("message", "Email has been initialized");
             return modelAndView;
@@ -109,8 +112,11 @@ public class UserController {
     }
 
     @PostMapping("/editInfo")
-    public String updateInfo(@ModelAttribute("userImageUpload") UserImageUpload userImageUpload,
-                             @ModelAttribute("user") User user, HttpSession session, ModelMap model) {
+    public ModelAndView updateInfo(@ModelAttribute("userImageUpload") UserImageUpload userImageUpload,
+                                   @ModelAttribute("user") User user, HttpSession session, BindingResult bindingResult) {
+        if(bindingResult.hasFieldErrors()){
+            return new ModelAndView("/userManager/editInformation");
+        }
         MultipartFile file = userImageUpload.getMultipartFile();
         String path = UPLOAD_LOCATION + file.getOriginalFilename();
 
@@ -127,9 +133,10 @@ public class UserController {
         userDB.setInformation(userImageUpload.getInformation());
         userService.save(userDB);
         session.setAttribute("user", userDB);
-        model.addAttribute("user", userDB);
-        model.addAttribute("message", "Information updated successfully");
-        return "/userManager/editInformation";
+        ModelAndView modelAndView = new ModelAndView("/userManager/editInformation");
+        modelAndView.addObject("user", userDB);
+        modelAndView.addObject("message", "Information updated successfully");
+        return modelAndView;
     }
 
     @GetMapping("/editPass/{id}")

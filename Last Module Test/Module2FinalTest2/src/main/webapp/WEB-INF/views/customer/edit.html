@@ -1,0 +1,82 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 8/15/2019                     *
+* Time: 1:25 PM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>Chỉnh sủa Liên lạc</title>
+
+    <style>
+        tr {
+            line-height: 30px;
+        }
+        label{
+            margin-left: 20px;
+        }
+        input{
+            width: 400px;
+        }
+        th{
+            width: 200px;
+        }
+    </style>
+</head>
+<body style="margin: 50px">
+<p><a href="/" class="btn btn-info btn-lg">Trở lại trang quản lý liên lạc</a></p>
+<h1>Chỉnh sửa Thông tin liên lạc</h1>
+
+<th:block th:if="${message}">
+    <p th:text="${message}" style="color: red"></p>
+</th:block>
+<form th:action="@{/customer-edit}" th:object="${customer}" method="post">
+    <table class="table table-striped" style="font-size: larger; width: auto">
+        <tr hidden>
+            <th>ID</th>
+            <td><a th:text="*{id}" th:field="*{id}"></a></td>
+            <td><input type="text" th:field="*{id}"/></td>
+        </tr>
+        <tr>
+            <th>Tên</th>
+            <td><input type="text" th:field="*{firstName}" minlength="2" maxlength="20" required/></td>
+            <td th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">Name Error</td>
+        </tr>
+        <tr>
+            <th>Họ</th>
+            <td><input type="text" th:field="*{lastName}" minlength="2" maxlength="30" required/></td>
+            <td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">Name Error</td>
+        </tr>
+        <tr>
+            <th>Số điện thoại</th>
+            <td><input type="text" th:field="*{phoneNumber}" pattern="[0][0-9]{9}" maxlength="10" minlength="10" required/></td>
+            <td th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}">Name Error</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="email" th:field="*{email}" required/></td>
+            <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Name Error</td>
+        </tr>
+        <tr>
+            <th>Địa chỉ</th>
+            <td><input type="text" th:field="*{address}" minlength="5" maxlength="100" required/></td>
+            <td th:if="${#fields.hasErrors('address')}" th:errors="*{address}">Name Error</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Chỉnh sửa thông tin liên lạc" class="btn btn-info btn-lg"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

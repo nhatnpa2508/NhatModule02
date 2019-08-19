@@ -42,4 +42,6 @@ public interface IAlbumService {
     Page<Album> findAllByDelete( Pageable pageable);
 
     Page<Album> findAllByUserAndNameContaining(User user, String name,Pageable pageable);
+
+    Album findAlbumByName(String name);
 }

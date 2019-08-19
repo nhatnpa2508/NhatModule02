@@ -24,6 +24,8 @@ public interface IAlbumRepository extends PagingAndSortingRepository<Album, Long
 
     Page<Album> findAllByUser(User user, Pageable pageable);
 
+    Album findAlbumByName(String name);
+
 /*    @Query(value="SELECT * FROM albums WHERE albums.user_id = :id AND albums.isDelete = 0", nativeQuery = true)*/
     //@Query(value="SELECT a FROM Album a WHERE a.user = :user AND a.delete = 0")
     //Page<Album> findAllByDeleteIsFalseAndUser(@Param("user")User user, Pageable pageable);

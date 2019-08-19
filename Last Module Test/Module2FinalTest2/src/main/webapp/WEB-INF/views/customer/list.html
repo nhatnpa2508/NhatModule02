@@ -1,0 +1,77 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 8/15/2019                     *
+* Time: 1:25 PM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Danh sách liên lạc</title>
+    <style>
+        tr {
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body style="margin: 50px">
+
+<nav class="navbar navbar-default">
+    <div class="navbar-header">
+        <a href="/customer-create" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-plus"></span>Thêm mới liên lạc
+        </a>
+    </div>
+    <form>
+        <ul class="nav navbar-nav navbar-right">
+            <input name="string" type="text" placeholder="Nhập Họ hoặc tên cần tìm kiếm"
+                   style="height: 45px;width: 500px;"/>
+            <input type="submit" value="Tìm kiếm" class="btn btn-info btn-lg" style="margin-right: 30px;"/>
+        </ul>
+    </form>
+</nav>
+
+<h1>Danh sách liên lạc</h1>
+<br/>
+<table class="table table-striped" style="font-size: larger;">
+    <tr>
+        <th>Họ và tên</th>
+        <th>Số điện thoại</th>
+        <th>Email</th>
+        <th>Địa chỉ</th>
+        <th>Chức năng</th>
+    </tr>
+    <th:block th:each="customer: ${customers}">
+        <tr>
+            <td><a th:text="${customer.lastName} +' '+ ${customer.firstName}" th:href="@{/customer-view/__${customer.id}__}"></a></td>
+            <td th:text="${customer.phoneNumber}"></td>
+            <td th:text="${customer.email}"></td>
+            <td th:text="${customer.address}"></td>
+            <td><a th:href="@{/customer-edit/__${customer.id}__}" class="btn btn-info btn-lg" style="padding: 5px 8px">
+                <span class="glyphicon glyphicon-pencil"></span></a>
+                <a> | </a>
+                <a th:href="@{/customer-delete/__${customer.id}__}"
+                   onclick="return confirm('Bạn chắn chắn muốn xóa liên lạc này?')"
+                   class="btn btn-info btn-lg" style="padding: 5px 8px">
+                    <span class="glyphicon glyphicon-trash"></span>
+                </a>
+            </td>
+        </tr>
+    </th:block>
+</table>
+<div style="font-size: larger; text-align: right">
+    <a th:href="@{'/'(page=${customers.number - 1})}" th:if="${customers.hasPrevious()}" type="button">Trang
+        sau</a>
+    <span th:text="${customers.number + 1}"></span>/<span th:text="${customers.totalPages}"></span>
+    <a th:href="@{'/'(page=${customers.number + 1})}" th:if="${customers.hasNext()}" type="button">Trang kế</a>
+</div>
+</body>
+</html>

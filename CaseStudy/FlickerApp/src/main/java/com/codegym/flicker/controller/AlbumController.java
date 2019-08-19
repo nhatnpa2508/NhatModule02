@@ -25,11 +25,13 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.FileCopyUtils;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpSession;
+import javax.validation.Valid;
 import java.io.File;
 import java.io.IOException;
 import java.util.Optional;
@@ -100,34 +102,45 @@ public class AlbumController {
     }
 
     @PostMapping(value="/createAlb",produces = "application/json;charset=UTF-8")
-    public ModelAndView saveAlbum(@ModelAttribute("albumAvatarUpload") AlbumAvatarUpload albumAvatarUpload, @ModelAttribute("user") User user) {
-        MultipartFile file = albumAvatarUpload.getMultipartFile();
-        String pathFile = file.getOriginalFilename();
-        String path = UPLOAD_LOCATION + file.getOriginalFilename();
-        try {
-            FileCopyUtils.copy(file.getBytes(), new File(path));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Album album = new Album();
-        album.setUser(user);
-        album.setCategory(albumAvatarUpload.getCategory());
-        album.setContent(albumAvatarUpload.getContent());
-        album.setName(albumAvatarUpload.getName());
-        album.setAvatar(pathFile);
-        album.setPublic(albumAvatarUpload.isPublic());
-        albumService.save(album);
+    public ModelAndView saveAlbum(@Valid @ModelAttribute("albumAvatarUpload") AlbumAvatarUpload albumAvatarUpload, @ModelAttribute("user") User user, BindingResult bindingResult) {
+        Album albumDB = albumService.findAlbumByName(albumAvatarUpload.getName());
+        if (albumDB != null){
+            ModelAndView modelAndView =  new ModelAndView("/userManager/createAlbum");
+            modelAndView.addObject("message","Album name has same other album");
+            return modelAndView;
+        } else {
+            if (bindingResult.hasFieldErrors()) {
+                return new ModelAndView("/userManager/createAlbum");
+            }
+            MultipartFile file = albumAvatarUpload.getMultipartFile();
+            String pathFile = file.getOriginalFilename();
+            String path = UPLOAD_LOCATION + file.getOriginalFilename();
+            try {
+                FileCopyUtils.copy(file.getBytes(), new File(path));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            Album album = new Album();
+            album.setUser(user);
+            album.setCategory(albumAvatarUpload.getCategory());
+            album.setContent(albumAvatarUpload.getContent());
+            album.setName(albumAvatarUpload.getName());
+            album.setAvatar(pathFile);
+            album.setPublic(albumAvatarUpload.isPublic());
+            albumService.save(album);
 
-        Image image = new Image();
-        image.setPhoto(pathFile);
-        image.setAuthor(user.getEmail().substring(0,10));
-        image.setTitle("Image");
-        image.setAlbum(album);
-        imageService.save(image);
-        ModelAndView modelAndView = new ModelAndView("userManager/createAlbum");
-        modelAndView.addObject("album", new Album());
-        modelAndView.addObject("message", "New album created successfully");
-        return modelAndView;
+            albumDB = albumService.findAlbumByName(albumAvatarUpload.getName());
+            Image image = new Image();
+            image.setPhoto(pathFile);
+            image.setAuthor(user.getEmail().substring(0, 10));
+            image.setTitle("Image");
+            image.setAlbum(albumDB);
+            imageService.save(image);
+            ModelAndView modelAndView = new ModelAndView("/userManager/createAlbum");
+            modelAndView.addObject("album", new Album());
+            modelAndView.addObject("message", "New album created successfully");
+            return modelAndView;
+        }
     }
 
     @GetMapping(value="/editAlb/{id}",produces = "application/json;charset=UTF-8")
@@ -153,7 +166,10 @@ public class AlbumController {
     }
 
     @PostMapping(value="/editAlb",produces = "application/json;charset=UTF-8")
-    public ModelAndView updateAlbum(@ModelAttribute("albumAvatarUpload")AlbumAvatarUpload albumAvatarUpload, @ModelAttribute("user") User user, HttpSession session) {
+    public ModelAndView updateAlbum(@Valid @ModelAttribute("albumAvatarUpload")AlbumAvatarUpload albumAvatarUpload, @ModelAttribute("user") User user, HttpSession session, BindingResult bindingResult) {
+        if(bindingResult.hasFieldErrors()){
+            return new ModelAndView("/userManager/editAlb");
+        }
         User userOfAlbum = albumAvatarUpload.getUser();
         user = userService.getUserByEmail(user.getEmail());
         if (user != null && (user.getId().equals(userOfAlbum.getId()))) {

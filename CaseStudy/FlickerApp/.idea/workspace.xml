@@ -2,39 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0554e021-7fc7-4b4e-a9b0-1e16084bb585" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/formatter/CategoryFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/repository/ICategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/repository/IEmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/service/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/service/IEmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/error404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/Formatter/BookFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/repository/IBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/service/impl/IBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/java/com/codegym/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/webapp/WEB-INF/views/book/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/webapp/WEB-INF/views/book/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/webapp/WEB-INF/views/book/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/webapp/WEB-INF/views/error404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/webapp/WEB-INF/views/student/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/webapp/WEB-INF/views/student/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/webapp/WEB-INF/views/student/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/LibraryTest/src/main/webapp/WEB-INF/views/student/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/TestSecurity/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/TestSecurity/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/TestSecurity/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22. Web Application Security in Spring/TestSecurity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/src/main/webapp/WEB-INF/views/category/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/MB/src/main/webapp/WEB-INF/views/category/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17. Spring Data Repository/ManagerCustomer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18. Validation/ValidateRegisterForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18. Validation/ValidateRegisterForm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../18. Validation/ValidatingFormInput/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18. Validation/ValidatingFormInput/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21. I18N/SpringSecurity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../21. I18N/SpringSecurity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/flicker/controller/AlbumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/flicker/controller/AlbumController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/flicker/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/flicker/controller/ImageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/flicker/repository/IAlbumRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/flicker/repository/IAlbumRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/flicker/service/IAlbumService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/flicker/service/IAlbumService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/flicker/service/impl/AlbumServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/flicker/service/impl/AlbumServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/FlickerApp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/FlickerApp-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/AlbumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/AlbumController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IAlbumRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IAlbumRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/IAlbumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/IAlbumService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/impl/AlbumServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/impl/AlbumServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/repository/IEmployeeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/repository/IEmployeeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/service/IEmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/service/IEmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/classes/java/main/com/codegym/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/libs/Module2FinalTest-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/build/libs/Module2FinalTest-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/repository/IEmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/repository/IEmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/service/IEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/category/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Last Module Test/Module2FinalTest/src/main/webapp/WEB-INF/views/employee/view.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,28 +131,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/editAlb.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/AlbumController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="124" selection-end-column="54" />
+            <state relative-caret-position="338">
+              <caret line="213" column="45" lean-forward="true" selection-start-line="213" selection-start-column="45" selection-end-line="213" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/albumList.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="143" column="32" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="32" />
+            <state relative-caret-position="202">
+              <caret line="118" column="9" lean-forward="true" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
+              <folding>
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1724#1725#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/Album.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
+            <state relative-caret-position="102">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/Image.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IAlbumRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#0#65#1" expanded="true" />
+                <element signature="e#0#46#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1684">
+              <caret line="161" selection-start-line="161" selection-end-line="161" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,11 +207,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IImageRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="112" />
+            <state relative-caret-position="272">
+              <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
               <folding>
                 <element signature="e#0#95#1" expanded="true" />
               </folding>
@@ -126,58 +220,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IAlbumRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#0#65#1" expanded="true" />
-                <element signature="e#0#46#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/IAlbumService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="43" column="89" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="89" />
+            <state relative-caret-position="544">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/ApplicationConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/impl/AlbumServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="161" selection-start-line="161" selection-end-line="161" />
+            <state relative-caret-position="1122">
+              <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/ApplicationInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="43" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/Image.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#3076#3077#0" expanded="true" />
+                <element signature="e#3136#3137#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -235,7 +293,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/Album.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/editAlbum.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/albums.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/viewAlb.html" />
@@ -247,9 +304,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/impl/ImageServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IImageRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/ahi.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IAlbumRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/IAlbumService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/impl/AlbumServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/blog.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login/loginForm.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login/register.html" />
@@ -263,10 +317,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/gallery.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/showAlbum.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/ImageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/contact.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/aaaaa.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/AlbumController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/albumList.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/home/css/style.css" />
@@ -276,7 +328,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/imageOfAlbum.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/ApplicationInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/editInformation.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/user/css/style.css" />
@@ -286,6 +337,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/editPass.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/createAlbum.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/editImg.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/ImageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IAlbumRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/IAlbumService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/impl/AlbumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/AlbumController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/Album.java" />
       </list>
     </option>
   </component>
@@ -302,7 +360,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="745" />
@@ -315,7 +373,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -437,6 +494,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -603,16 +661,27 @@
       <workItem from="1565253126166" duration="755000" />
       <workItem from="1565321056303" duration="3578000" />
       <workItem from="1565340243007" duration="2731000" />
+      <workItem from="1565574983906" duration="793000" />
+      <workItem from="1565579294376" duration="613000" />
+      <workItem from="1565585641388" duration="952000" />
+      <workItem from="1565596143409" duration="3331000" />
+      <workItem from="1565658471891" duration="544000" />
+      <workItem from="1565660158105" duration="1387000" />
+      <workItem from="1565683624136" duration="170000" />
+      <workItem from="1565689569272" duration="742000" />
+      <workItem from="1565747780684" duration="3975000" />
+      <workItem from="1565764675887" duration="4286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281540000" />
+    <option name="totallyTimeSpent" value="298333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868074" visible="true" weight="0.25189108" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868074" visible="true" weight="0.28744328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -623,7 +692,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17069243" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.50402576" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5136876" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -694,11 +763,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/UserController.java</url>
-          <line>111</line>
+          <line>114</line>
           <properties class="com.codegym.flicker.controller.UserController" method="updateInfo">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/AlbumController.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -708,19 +783,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/impl/ImageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="66" selection-start-line="66" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1480#1481#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/IImageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -824,20 +886,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/contact.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/aaaaa.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/blog.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/albumList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="47" column="153" selection-start-line="47" selection-start-column="153" selection-end-line="47" selection-end-column="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/imageList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="44" column="161" selection-start-line="44" selection-start-column="161" selection-end-line="44" selection-end-column="161" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/imageOfAlbum.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -848,27 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/about-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="44" column="161" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.17.RELEASE/42a297f13fd0c2bf304f0b4f589b589dc1e69159/spring-web-4.3.17.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="213" selection-start-line="213" selection-end-line="213" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -876,49 +903,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/ImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="70" column="67" lean-forward="true" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/home/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
           <caret line="168" column="14" lean-forward="true" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="118" column="9" lean-forward="true" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-          <folding>
-            <element signature="e#1683#1684#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="115" column="47" lean-forward="true" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#h6#0;n#a#1;n#div#0;n#div#0;n#div#0;n#th:block#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#0;n#th:block#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/AlbumController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
         </state>
       </provider>
     </entry>
@@ -939,13 +927,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/editImg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -973,20 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/Album.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="73" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/impl/AlbumServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -994,20 +961,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/ApplicationConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/editAlb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="2057">
+          <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="124" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/albumList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/editImg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/ApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/ApplicationInitializer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" column="47" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#h6#0;n#a#1;n#div#0;n#div#0;n#div#0;n#th:block#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/imageList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="161" selection-start-line="44" selection-start-column="161" selection-end-line="44" selection-end-column="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/albumList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="153" selection-start-line="47" selection-start-column="153" selection-end-line="47" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.17.RELEASE/42a297f13fd0c2bf304f0b4f589b589dc1e69159/spring-web-4.3.17.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2941">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/ImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1016,49 +1063,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="510">
           <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/IAlbumService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="43" column="89" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/editAlb.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="124" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/albumList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="143" column="32" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userManager/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IAlbumRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#65#1" expanded="true" />
-            <element signature="e#0#46#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1070,12 +1078,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/IAlbumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/service/impl/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
+          <folding>
+            <element signature="e#3076#3077#0" expanded="true" />
+            <element signature="e#3136#3137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/model/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IImageRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="112" />
+        <state relative-caret-position="272">
+          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
           <folding>
             <element signature="e#0#95#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/AlbumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="213" column="45" lean-forward="true" selection-start-line="213" selection-start-column="45" selection-end-line="213" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="118" column="9" lean-forward="true" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
+          <folding>
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/repository/IAlbumRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#65#1" expanded="true" />
+            <element signature="e#0#46#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/flicker/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1684">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

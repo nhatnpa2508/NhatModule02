@@ -1,0 +1,49 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 8/13/2019                     *
+* Time: 3:36 PM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <title>Edit Book</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        tr {
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body style="margin: 50px">
+<p><a href="/categories" class="btn btn-info btn-lg">Trở lại</a></p>
+<h1>Chỉnh sửa sách</h1>
+<th:block th:if="${message}">
+    <p th:text="${message}" style="color: red"></p>
+</th:block>
+<form th:action="@{/book-edit}" th:object="${book}" method="post">
+    <input th:type="hidden" name="id" th:field="*{id}">
+    <table class="table table-striped" style="font-size: larger; width: 600px">
+        <tr>
+            <td>Tên sách</td>
+            <td><input type="text" th:field="*{name}"/></td>
+        </tr>
+        <tr>
+            <td>Mã sách</td>
+            <td><input type="text" th:field="*{bookCode}"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Chỉnh sửa" class="btn btn-info btn-lg"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

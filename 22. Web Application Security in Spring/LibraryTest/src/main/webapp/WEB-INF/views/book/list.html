@@ -1,0 +1,53 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 8/13/2019                     *
+* Time: 3:37 PM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <title>Book List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        tr {
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body style="margin: 50px">
+<a href="/students" class="btn btn-info btn-lg">Về trang quản lý người mượn</a><br>
+<br>
+<a href="/book-create" class="btn btn-info btn-lg">Tạo mới sách</a>
+
+<h1>Danh sách sách</h1>
+<table class="table table-striped" style="font-size: larger; width: 600px">
+    <tr>
+        <th>Tên sách </th>
+        <th>Mã sách </th>
+        <th>Sửa | Xóa</th>
+    </tr>
+    <th:block th:each="book: ${books}">
+        <tr>
+            <td th:text="${book.name}"></td>
+            <td th:text="${book.bookCode}"></td>
+            <td><a th:href="@{/book-edit/__${book.id}__}" class="btn btn-info btn-lg" style="padding: 5px 8px">
+                <span class="glyphicon glyphicon-pencil"></span></a>
+                <a> | </a>
+                <a th:href="@{/book-delete/__${book.id}__}" onclick="return confirm('Are you sure?')"
+                   class="btn btn-info btn-lg" style="padding: 5px 8px">
+                    <span class="glyphicon glyphicon-trash"></span>
+                </a>
+            </td>
+        </tr>
+    </th:block>
+</table>
+</body>
+</html>

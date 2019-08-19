@@ -1,0 +1,96 @@
+<!--
+*************************************
+* Created by IntelliJ IDEA          *
+* User: Nhat                     *
+* Email: nhatnpa2508@gmail.com      *
+* Date: 8/13/2019                     *
+* Time: 3:37 PM                     *
+*************************************
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Thêm mới nhân viên</title>
+
+    <style>
+        tr {
+            line-height: 30px;
+        }
+        label{
+            margin-left: 20px;
+        }
+        input{
+            width: 400px;
+        }
+        th{
+            width: 200px;
+        }
+    </style>
+
+</head>
+<body style="margin: 50px">
+
+<p><a href="/students" class="btn btn-info btn-lg">Trở lại trang quản lý</a></p>
+<h1>Thêm mới Học sinh</h1>
+<th:block th:if="${message}" >
+    <p th:text="${message}" style="color: red"></p>
+</th:block>
+<form th:action="@{/student-create}" th:object="${student}" method="post">
+    <table class="table table-striped" style="font-size: larger; width: auto">
+        <tr>
+            <th>Mã Học Sinh</th>
+            <td><input type="text" th:field="*{studentCode}" minlength="5" maxlength="5" pattern="[H][S][0-9]{3}" required/></td>
+            <td th:if="${#fields.hasErrors('studentCode')}" th:errors="*{studentCode}">Name Error</td>
+        </tr>
+        <tr>
+            <th>Họ và tên</th>
+            <td><input type="text" th:field="*{fullName}" minlength="5" maxlength="40" required/></td>
+            <td th:if="${#fields.hasErrors('fullName')}" th:errors="*{fullName}">Name Error</td>
+        </tr>
+        <tr>
+            <th>Số điện thoại</th>
+            <td><input type="text" th:field="*{phoneNumber}" pattern="[0][0-9]{9}" maxlength="10" minlength="10" required/></td>
+            <td th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}">Name Error</td>
+        </tr>
+        <tr>
+            <th>Lớp</th>
+            <td><input type="text" th:field="*{classMate}" minlength="5" maxlength="5" required/></td>
+            <td th:if="${#fields.hasErrors('classMate')}" th:errors="*{classMate}">Name Error</td>
+        </tr>
+<!--        <tr>
+            <th>Ngày mượn</th>
+            <td><input type="datetime-local" th:field="*{dateOrderBook}" required style="width: 200px;"/></td>
+            <td th:if="${#fields.hasErrors('dateOrderBook')}" th:errors="*{dateOrderBook}">Name Error</td>
+        </tr>-->
+        <tr>
+            <th>Sách</th>
+            <td>
+                <select th:field="*{book}" required style="width: 200px; height: 29px">
+                    <option th:each="p : ${books}" th:value="${p.id}" th:text="${p.name}"></option>
+                </select>
+            </td>
+            <td th:if="${#fields.hasErrors('book')}" th:errors="*{book}">Name Error</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="email" th:field="*{email}" required/></td>
+            <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Name Error</td>
+        </tr>
+        <tr>
+            <th>Địa chỉ</th>
+            <td><input type="text" th:field="*{address}"minlength="4" maxlength="100" required/></td>
+            <td th:if="${#fields.hasErrors('address')}" th:errors="*{address}">Name Error</td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><input type="submit" value="Thêm mới người mượn" class="btn btn-info btn-lg"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -92,5 +92,10 @@ public class AlbumServiceImpl implements IAlbumService {
         return albumRepository.findAllByUserAndNameContaining(user, name, pageable);
     }
 
+    @Override
+    public Album findAlbumByName(String name) {
+        return albumRepository.findAlbumByName(name);
+    }
+
 
 }
